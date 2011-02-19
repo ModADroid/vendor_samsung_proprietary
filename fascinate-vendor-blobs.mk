@@ -49,7 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/fascinate/proprietary/lib/libIMGegl.so:system/lib/libIMGegl.so \
     vendor/samsung/fascinate/proprietary/lib/libpvr2d.so:system/lib/libpvr2d.so \
     vendor/samsung/fascinate/proprietary/lib/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
-    vendor/samsung/fascinate/proprietary/lib/libglslcompiler.so:system/lib/libglslcompiler.so
+    vendor/samsung/fascinate/proprietary/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
+    vendor/samsung/fascinate/proprietary/lib/libPVRScopeServices.so:system/lib/libPVRScopeServices.so
 
 #
 # Sensors, Lights etc
