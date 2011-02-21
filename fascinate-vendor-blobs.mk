@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
 # Sensors, Lights etc
 #
 PRODUCT_COPY_FILES += \
-    vendor/samsung/fascinate/proprietary/lib/hw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so \
     vendor/samsung/fascinate/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/samsung/fascinate/proprietary/lib/hw/gralloc.s5pc110.so:system/lib/hw/gralloc.s5pc110.so \
     vendor/samsung/fascinate/proprietary/lib/libsensor_yamaha.so:system/lib/libsensor_yamaha.so \
@@ -66,6 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/fascinate/proprietary/bin/sensorserver_yamaha:system/bin/sensorserver_yamaha \
     vendor/samsung/fascinate/proprietary/bin/sensorstatutil_yamaha:system/bin/sensorstatutil_yamaha
 #    vendor/samsung/fascinate/proprietary/lib/hw/copybit.s5pc110.so:system/lib/hw/copybit.s5pc110.so
+#    vendor/samsung/fascinate/proprietary/lib/hw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so \
 
 #
 # Camera
