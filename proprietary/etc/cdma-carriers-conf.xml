@@ -23,9 +23,21 @@
  
 <!-- use empty string to specify no proxy or port -->
 <!-- This version must agree with that in apps/common/res/apns.xml -->
+
+<!-- // USCC_I500 SOULMOON 20100618 -->
+<cdma_carriers version="6">
+     <connection name="USCC"
+        user="USCC"
+        auth="chap"
+     />
+</cdma_carriers>
+
+<!--
 <cdma_carriers version="6">
      <connection name="Verizon"
         user="VerizonWireless"
         auth="chap"
      />
 </cdma_carriers>
+-->
+<!-- // ]] END of SOULMOON -->

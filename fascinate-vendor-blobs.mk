@@ -139,7 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/fascinate/proprietary/lib/libomx_evrcenc_sharedlibrary.so:system/lib/libomx_evrcenc_sharedlibrary.so \
     vendor/samsung/fascinate/proprietary/lib/libomx_qcelpdec_sharedlibrary.so:system/lib/libomx_qcelpdec_sharedlibrary.so \
     vendor/samsung/fascinate/proprietary/lib/libomx_qcelpenc_sharedlibrary.so:system/lib/libomx_qcelpenc_sharedlibrary.so \
-    vendor/samsung/fascinate/proprietary/bin/pv2way_omx_engine_test:system/bin/pv2way_omx_engine_test \
     vendor/samsung/fascinate/proprietary/lib/libomadrm.so:system/lib/libomadrm.so \
     vendor/samsung/fascinate/proprietary/lib/libomx_avcenc_sharedlibrary.so:system/lib/libomx_avcenc_sharedlibrary.so \
     vendor/samsung/fascinate/proprietary/lib/libomx_m4venc_sharedlibrary.so:system/lib/libomx_m4venc_sharedlibrary.so \
@@ -150,58 +149,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/fascinate/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
     vendor/samsung/fascinate/proprietary/lib/libsavsff.so:system/lib/libsavsff.so \
     vendor/samsung/fascinate/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
-    vendor/samsung/fascinate/proprietary/lib/libSecOMXCore.so:system/lib/libSecOMXCore.so \
     vendor/samsung/fascinate/proprietary/lib/libsflacfdocn.so:system/lib/libsflacfdocn.so \
     vendor/samsung/fascinate/proprietary/lib/libsflacfdreg.so:system/lib/libsflacfdreg.so \
     vendor/samsung/fascinate/proprietary/lib/libsflvdocn.so:system/lib/libsflvdocn.so \
     vendor/samsung/fascinate/proprietary/lib/libsflvdreg.so:system/lib/libsflvdreg.so \
     vendor/samsung/fascinate/proprietary/lib/libsmkvdocn.so:system/lib/libsmkvdocn.so \
     vendor/samsung/fascinate/proprietary/lib/libsmkvdreg.so:system/lib/libsmkvdreg.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolocore_androidpv.so:system/lib/libsolocore_androidpv.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolocore_common.so:system/lib/libsolocore_common.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolocore_downloadreg.so:system/lib/libsolocore_downloadreg.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolocore_download.so:system/lib/libsolocore_download.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolocore_mp4localreg.so:system/lib/libsolocore_mp4localreg.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolocore_mp4local.so:system/lib/libsolocore_mp4local.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolocore_net_support.so:system/lib/libsolocore_net_support.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolocore_player.so:system/lib/libsolocore_player.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolocore_pvme.so:system/lib/libsolocore_pvme.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolocore_streamingreg.so:system/lib/libsolocore_streamingreg.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolocore_streaming.so:system/lib/libsolocore_streaming.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolohw.so:system/lib/libsolohw.so \
-    vendor/samsung/fascinate/proprietary/lib/libsoloomx_sharedlibrary.so:system/lib/libsoloomx_sharedlibrary.so \
-    vendor/samsung/fascinate/proprietary/lib/libsoloomx_wmadec_sharedlibrary.so:system/lib/libsoloomx_wmadec_sharedlibrary.so \
-    vendor/samsung/fascinate/proprietary/lib/libsoloomx_wmvdec_sharedlibrary.so:system/lib/libsoloomx_wmvdec_sharedlibrary.so \
-    vendor/samsung/fascinate/proprietary/lib/libsoloomx_wrapper_sharedlibrary.so:system/lib/libsoloomx_wrapper_sharedlibrary.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvasfcommon.so:system/lib/libsolopvasfcommon.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvasflocalpbreg.so:system/lib/libsolopvasflocalpbreg.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvasflocalpb.so:system/lib/libsolopvasflocalpb.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvasxparser_extn.so:system/lib/libsolopvasxparser_extn.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvdbconfigclass.so:system/lib/libsolopvdbconfigclass.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvdb_recovery_utility.so:system/lib/libsolopvdb_recovery_utility.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvdb.so:system/lib/libsolopvdb.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvdla_extn.so:system/lib/libsolopvdla_extn.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvgetmetadata_extn.so:system/lib/libsolopvgetmetadata_extn.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopviptransport.so:system/lib/libsolopviptransport.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvjanus.so:system/lib/libsolopvjanus.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvmshttp_streamingreg.so:system/lib/libsolopvmshttp_streamingreg.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvmshttp_streaming.so:system/lib/libsolopvmshttp_streaming.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvmtpconfigclass.so:system/lib/libsolopvmtpconfigclass.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvmtpdrmmanagerplugin.so:system/lib/libsolopvmtpdrmmanagerplugin.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvmtpip.so:system/lib/libsolopvmtpip.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvmtp_jni.so:system/lib/libsolopvmtp_jni.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvmtpservice.so:system/lib/libsolopvmtpservice.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvmtp.so:system/lib/libsolopvmtp.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvmtp_usb_transport.so:system/lib/libsolopvmtp_usb_transport.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvplaybackcontrol_extn.so:system/lib/libsolopvplaybackcontrol_extn.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvprotocolengine_asfstreamingreg.so:system/lib/libsolopvprotocolengine_asfstreamingreg.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvprotocolengine_asfstreaming.so:system/lib/libsolopvprotocolengine_asfstreaming.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvsetparameter_extn.so:system/lib/libsolopvsetparameter_extn.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvupnp.so:system/lib/libsolopvupnp.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvwmdrm_jni.so:system/lib/libsolopvwmdrm_jni.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvwmdrmoemsettings.so:system/lib/libsolopvwmdrmoemsettings.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvwmdrmservice.so:system/lib/libsolopvwmdrmservice.so \
-    vendor/samsung/fascinate/proprietary/lib/libsolopvwmdrm.so:system/lib/libsolopvwmdrm.so \
     vendor/samsung/fascinate/proprietary/lib/libswmfdocn.so:system/lib/libswmfdocn.so \
     vendor/samsung/fascinate/proprietary/lib/libswmfdreg.so:system/lib/libswmfdreg.so \
     vendor/samsung/fascinate/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
@@ -226,12 +179,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/fascinate/proprietary/lib/libImmVibeJ.so:system/lib/libImmVibeJ.so \
     vendor/samsung/fascinate/proprietary/lib/libImmVibe.so:system/lib/libImmVibe.so \
     vendor/samsung/fascinate/proprietary/lib/libhardware.so:system/lib/libhardware.so \
-    vendor/samsung/fascinate/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
     vendor/samsung/fascinate/proprietary/lib/libskiagl.so:system/lib/libskiagl.so \
     vendor/samsung/fascinate/proprietary/bin/BCM4329B1_002.002.023.0417.0430.hcd:system/bin/BCM4329B1_002.002.023.0417.0430.hcd \
     vendor/samsung/fascinate/proprietary/bin/vold:system/bin/vold \
     vendor/samsung/fascinate/proprietary/etc/vold.conf:system/etc/vold.conf \
-    vendor/samsung/fascinate/proprietary/etc/vold.fstab:system/etc/vold.fstab
+    vendor/samsung/fascinate/proprietary/etc/vold.fstab:system/etc/vold.fstab \
+    vendor/samsung/fascinate/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so
 
 #
 # Files for battery charging screen
