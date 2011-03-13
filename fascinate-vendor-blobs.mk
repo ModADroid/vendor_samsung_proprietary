@@ -178,7 +178,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/fascinate/proprietary/bin/immvibed:system/bin/immvibed \
     vendor/samsung/fascinate/proprietary/lib/libImmVibeJ.so:system/lib/libImmVibeJ.so \
     vendor/samsung/fascinate/proprietary/lib/libImmVibe.so:system/lib/libImmVibe.so \
-    vendor/samsung/fascinate/proprietary/lib/libhardware.so:system/lib/libhardware.so \
     vendor/samsung/fascinate/proprietary/lib/libskiagl.so:system/lib/libskiagl.so \
     vendor/samsung/fascinate/proprietary/bin/BCM4329B1_002.002.023.0417.0430.hcd:system/bin/BCM4329B1_002.002.023.0417.0430.hcd \
     vendor/samsung/fascinate/proprietary/bin/vold:system/bin/vold \
