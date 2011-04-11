@@ -23,23 +23,6 @@
 
 <!-- use empty string to specify no proxy or port -->
 <!-- This version must agree with that in apps/common/res/apns.xml -->
-
-<!-- // USCC_I500 SOULMOON 20100618 [ BND 2010.01.12 apply uscc mmsc url -->
-<apns version="6">
-   <apn carrier="USCC"
-        mcc="310"
-	    mnc="00"
-	    apn="USCC"
-        user="USCC"
-        server="*"
-        password="*"
-        mmsc="http://www.carrier_domain.com/mms"
-        auth="3"
-     />
-</apns>
-<!-- BND 2010.01.12 apply uscc mmsc url ] -->
-
-<!--
 <apns version="6">
    <apn carrier="Verizon"
         mcc="310"
@@ -63,5 +46,3 @@
 		auth_type="0"
 	/>	
 </apns>
--->
-<!-- // ]] END of SOULMOON -->
