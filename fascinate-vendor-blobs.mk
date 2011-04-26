@@ -167,7 +167,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/fascinate/proprietary/bin/logwrapper:system/bin/logwrapper \
     vendor/samsung/fascinate/proprietary/bin/killmediaserver:system/bin/killmediaserver \
     vendor/samsung/fascinate/proprietary/bin/notified_event:system/bin/notified_event \
-    vendor/samsung/fascinate/proprietary/bin/mfgloader:system/bin/mfgloader \
     vendor/samsung/fascinate/proprietary/bin/netcfg:system/bin/netcfg \
     vendor/samsung/fascinate/proprietary/lib/libnetutils.so:system/lib/libnetutils.so
 
