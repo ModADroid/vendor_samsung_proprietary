@@ -92,12 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/fascinate/proprietary/lib/libril.so:system/lib/libril.so
 
 #
-# PPP
-#
-PRODUCT_COPY_FILES += \
-    vendor/samsung/fascinate/proprietary/bin/pppd_runner:system/bin/pppd_runner
-
-#
 # OMX
 #
 PRODUCT_COPY_FILES += \
@@ -151,13 +145,9 @@ PRODUCT_COPY_FILES += \
 # Other stuff
 #
 PRODUCT_COPY_FILES += \
-    vendor/samsung/fascinate/proprietary/bin/immvibed:system/bin/immvibed \
-    vendor/samsung/fascinate/proprietary/lib/libImmVibeJ.so:system/lib/libImmVibeJ.so \
-    vendor/samsung/fascinate/proprietary/lib/libImmVibe.so:system/lib/libImmVibe.so \
     vendor/samsung/fascinate/proprietary/bin/BCM4329B1_002.002.023.0417.0430.hcd:system/bin/BCM4329B1_002.002.023.0417.0430.hcd \
     vendor/samsung/fascinate/proprietary/bin/logwrapper:system/bin/logwrapper \
     vendor/samsung/fascinate/proprietary/bin/killmediaserver:system/bin/killmediaserver \
-    vendor/samsung/fascinate/proprietary/bin/notified_event:system/bin/notified_event \
     vendor/samsung/fascinate/proprietary/bin/netcfg:system/bin/netcfg \
     vendor/samsung/fascinate/proprietary/lib/libnetutils.so:system/lib/libnetutils.so
 
