@@ -78,10 +78,10 @@ PRODUCT_COPY_FILES += \
 
 # Firmware files
 PRODUCT_COPY_FILES += \
-    vendor/samsung/fascinate/proprietary/seh/CE147F00.bin:system/firmware/CE147F00.bin \
-    vendor/samsung/fascinate/proprietary/seh/CE147F01.bin:system/firmware/CE147F01.bin \
-    vendor/samsung/fascinate/proprietary/seh/CE147F02.bin:system/firmware/CE147F02.bin \
-    vendor/samsung/fascinate/proprietary/seh/CE147F03.bin:system/firmware/CE147F03.bin
+    vendor/samsung/fascinate/proprietary/seh/CE147F00.bin:system/vendor/firmware/CE147F00.bin \
+    vendor/samsung/fascinate/proprietary/seh/CE147F01.bin:system/vendor/firmware/CE147F01.bin \
+    vendor/samsung/fascinate/proprietary/seh/CE147F02.bin:system/vendor/firmware/CE147F02.bin \
+    vendor/samsung/fascinate/proprietary/seh/CE147F03.bin:system/vendor/firmware/CE147F03.bin
 
 #
 # RIL
